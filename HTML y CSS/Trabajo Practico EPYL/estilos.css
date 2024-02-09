@@ -1,0 +1,27 @@
+h1 {
+  font-family: Helvetica; 
+  text-align: center;
+  }
+table {
+	font-family: Lucida Sans Unicode;
+	border: 2px solid black;
+}
+th{
+	border-bottom: 1px solid black;
+	font-family: Arial Black;
+	
+}
+h2{
+	font-family: Comic Sans MS
+}
+li{
+	font-family: Verdana;
+	color: brown;
+}
+body{
+	background-color: green;
+}
+a:link{
+	font-family: Comic Sans MS;
+	color: blue;
+}

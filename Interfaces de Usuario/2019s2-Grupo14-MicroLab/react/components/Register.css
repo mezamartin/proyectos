@@ -1,0 +1,18 @@
+.register{
+    display: block;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.button{
+    padding-left: 75px;
+}
+
+.label{
+    display: inline-block;
+    width: 80px;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+  }

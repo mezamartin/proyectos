@@ -1,0 +1,14 @@
+.profile {
+  display: block;
+    justify-content: center;
+    padding-left: 350px;
+}
+
+.label{
+  display: inline-block;
+  width: 80px;
+}
+
+.button{
+    padding-left: 75px;
+}

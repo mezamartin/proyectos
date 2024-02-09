@@ -1,0 +1,23 @@
+INSERT INTO mundial(
+	anho, sede , ganador, subcampeon, promedio_entradas_vendidas, cantidad_incidetes, cantidad_participantes, goles_totales, partidos_jugados)
+VALUES  (1930, 'Uruguay', 'Uruguay', 'Argentina', 590549, 0, 13, 70, 18),
+		(1934, 'Italia', 'Italia', 'Checoslovaquia', 358000, 2, 16, 70, 17),
+		(1938, 'Francia', 'Italia', 'Hungría', 375700, 1, 15, 84, 18),
+		(1950, 'Brasil', 'Uruguay', 'Brasil', 1045246, 1, 13, 88, 22),
+		(1954, 'Suiza', 'Alemania', 'Hungría', 768607, 0, 16, 140, 26),
+		(1958, 'Suecia', 'Brasil', 'Suecia', 819810, 0, 16, 126, 35),
+		(1962, 'Chile', 'Brasil', 'Checoslovaquia', 893172, 3, 16, 89, 32),
+		(1966, 'Inglaterra', 'Inglaterra', 'Alemania', 1563135, 1, 16, 89, 32),
+		(1970, 'México', 'Brasil', 'Italia', 1604065, 0, 16, 95, 32),
+		(1974, 'Alemania', 'Alemania', 'Holanda', 1865762, 5, 16, 97, 38),
+		(1978, 'Argentina', 'Argentina', 'Holanda', 1545791, 3, 16, 102, 38),
+		(1982, 'España', 'Italia', 'Alemania', 2109723, 0, 24, 146, 52),
+		(1986, 'México', 'Argentina', 'Alemania', 2394031, 0, 24, 132, 52),
+		(1990, 'Italia', 'Alemania', 'Argentina', 2516215, 1, 24, 115, 52),
+		(1994, 'Estados Unidos', 'Brasil', 'Italia', 3587538, 0, 24, 141, 52),
+		(1998, 'Francia', 'Francia', 'Brasil', 2784687, 0, 32, 171, 64),
+		(2002, 'Japón', 'Brasil', 'Alemania', 2705197, 2, 32, 161, 64),
+		(2006, 'Alemania', 'Italia', 'Francia', 3359439, 0, 32, 147, 64),
+		(2010, 'Sudáfrica', 'España', 'Holanda', 3178856, 3, 32, 145, 64),
+		(2014, 'Brasil', 'Alemania', 'Argentina', 3429873, 0, 32, 171, 64),
+		(2018, 'Rusia', NULL, NULL, NULL, NULL, 32, NULL, 64);

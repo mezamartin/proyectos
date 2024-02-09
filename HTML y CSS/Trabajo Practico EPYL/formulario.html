@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Ingreso de datos</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+    <b>Este es un espacio donde usted podrá agregar información sobre los deportes o disciplinas
+	que mas te llamaron la atención durante estos 16 días, recuerda enviar tus datos!!</b>
+	<br/>
+	<form action="http://elementos­web.herokuapp.com/forms/dump.php" method="get">
+	  Nombre<input type="text" name="Nombre" value=""/>
+	<br/>
+	  Apellido<input type="text" name="Apellido" value=""/>
+	<br/>
+	  Deporte favorito<input type="text" name="Deporte favorito" value=""/>
+	<br/>
+	  <b>Elija el deporte o disciplina que más ha seguido durante estos Juegos Olímpicos:</b>
+	  <select name="Deporte o disciplina">
+	    <option>Fútbol</option>
+	    <option>Atletismo</option>
+	    <option>Hockey</option>
+	    <option>Basquet</option>
+	    <option>Boxeo</option>
+	    <option>Handball</option>
+      </select>
+    <br/>
+	  <b>Frecuencia con la que usted siguió los JJ.OO:</b>
+	<br/>
+	  <input type="radio" name="Frecuencia con la que usted siguió los JJ.OO" value="Todos los días"/>Todos los días
+	<br/>
+	  <input type="radio" name="Frecuencia con la que usted siguió los JJ.OO" value="Cuatro veces por semana"/>Cuatro veces por semana
+	<br/>
+	  <input type="radio" name="Frecuencia con la que usted siguió los JJ.OO" value="Dos veces a la semana"/>Dos veces a la semana
+	<br/>
+	  <input type="radio" name="Frecuencia con la que usted siguió los JJ.OO" value="No los vi"/>No los vi
+	<br/>
+	  <b>Seleccione canal o canales por donde vio este evento:</b>
+	<br/>
+	  <input type="checkbox" name="Fox Sports" value="Fox Sports"/>Fox Sports
+	<br/>
+	  <input type="checkbox" name="TyC Sports" value="TyC Sports"/>TyC Sports
+	<br/>
+	  <input type="checkbox" name="DIRECTV Sports" value="DIRECTV Sports"/>DIRECTV Sports
+	<br/>
+      <input type="reset" value="Eliminar"/>
+      <input type="submit" value="Enviar"/>
+    </form>
+	<a href="trabajo_practico.html">Página principal</a>
+  </body>
+</html> 
